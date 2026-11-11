@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fbfaf6;
+    color: #26352d;
+}
+
+header {
+    background: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h2 {
+    color: #246b4b;
+}
+
+nav a {
+    text-decoration: none;
+    color: #26352d;
+    margin: 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #246b4b;
+}
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    min-height: 65vh;
+}
+
+.inicio {
+    text-align: center;
+    padding-top: 80px;
+}
+
+h1 {
+    color: #246b4b;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.animais {
+    font-size: 80px;
+    margin: 30px;
+}
+
+.botao, button {
+    background: #246b4b;
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.report {
+    background: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #1f4935;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        text-align: center;
+    }
+}
